@@ -29,7 +29,7 @@ vim.g.transparency = 0.8
 vim.g.neovide_floating_blur_amount_x = 1.0
 vim.g.neovide_floating_blur_amount_y = 1.0
 vim.cmd [[
-  set tabstop=4|set shiftwidth=4|set noexpandtab
+  autocmd FileType c,cpp,java,python setlocal autoindent noexpandtab tabstop=4 shiftwidth=4
 ]]
 
 
