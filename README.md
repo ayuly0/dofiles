@@ -1,2 +1,2 @@
-# dofiles
+# dotfiles
 Just my config files
